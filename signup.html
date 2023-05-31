@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/signlog.css">
+</head>
+
+<body>
+    <nav>
+        <ul class="navList">
+            <li class="navTitle" onclick="goBack()">صفحه اصلی</li>
+            <li class="navItems"><a class='item' href="#">خدمات آموزشی</a></li>
+            <li class="navItems"><a class='item' href="login.html">ورود زبان آموز</a></li>
+            <li class="navItems"><a class='item' href="signup.html" style="color:#240046">ثبت نام در سامانه</a></li>
+            <li class="navItems"><a class='item' href="#">تماس با ما</a></li>
+        </ul>
+    </nav>
+
+    <main class="signlog">
+        <div class="intro">
+            <h1 class="introTitle">!خوش آمدید</h1>
+            <p class="introBody">،جهت شرکت در دوره ها وآزمون ها</p>
+            <p class="introBody">.در سایت ثبت نام کنید</p>
+            <div class="check">
+                <button class="login" onclick="handleClick()">ورود</button>
+                <p>حساب کاربری دارید؟</p>
+            </div>
+        </div>
+
+        <form class="form" id="Form">
+            <h1 class="formTitle">ایجاد حساب کاربری</h1>
+            <div>
+                <input class="input1" type="text" id="firstName" placeholder="نام خانوادگی " />
+                <input class="input2" type="text" id="lastName" placeholder="نام " />
+            </div>
+
+            <input class="input3" type="text" id="email" placeholder="ایمیل " />
+            <input class="input3" type="password" id="password" placeholder="گذرواژه " />
+
+            <button class="signup" type="submit">ثبت نام</button>
+        </form>
+    </main>
+    <script src="./scripts/singup.js"></script>
+
+
+</body>
+
+</html>

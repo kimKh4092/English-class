@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/signlog.css">
+</head>
+
+<body>
+    <nav>
+        <ul class="navList">
+            <li class="navTitle" onclick="goBack()">صفحه اصلی</li>
+            <li class="navItems"><a class='item' href="#">خدمات آموزشی</a></li>
+            <li class="navItems"><a class='item' href="login.html" style="color:#240046">ورود زبان آموز</a></li>
+            <li class="navItems"><a class='item' href="signup.html">ثبت نام در سامانه</a></li>
+            <li class="navItems"><a class='item' href="#">تماس با ما</a></li>
+        </ul>
+    </nav>
+
+    <main class="signlog">
+        <div class="intro">
+            <h1 class="introTitle">زبان آموز گرامی</h1>
+            <p class="introBody">،جهت مشاهده دوره ها وآزمون ها</p>
+            <p class="introBody">.وارد حساب کاربری خود شوید</p>
+            <div class="check">
+                <button class="login" onclick="handleClick()">ثبت نام</button>
+                <p>حساب کاربری ندارید؟</p>
+            </div>
+        </div>
+
+        <form class="form" id="loginForm">
+            <h1 class="formTitle">ورود به حساب کاربری</h1>
+
+            <input class="input3" type="text" id="email" placeholder="ایمیل" />
+            <input class="input3" type="password" id="password" placeholder="گذرواژه" />
+
+            <button class="signup" type="submit">ورود</button>
+        </form>
+    </main>
+    <script src="./scripts/login.js"></script>
+
+</body>
+
+</html>

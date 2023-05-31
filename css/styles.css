@@ -1,0 +1,132 @@
+body {
+    background-color: #BBADFF;
+    margin: 0px;
+}
+
+.navList {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #7B2CBF;
+}
+
+.navItems {
+    margin: 20px;
+    list-style-type: none;
+
+}
+
+.item {
+    text-decoration: none;
+    color: #BBADFF;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.item:hover {
+    color: #240046;
+
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #240046;
+}
+
+.navTitle {
+    color: #240046;
+    margin: 15px;
+    margin-right: 20px;
+    list-style-type: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.intro {
+    width: 40vw;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 1.3rem;
+}
+
+.introTitle {
+    color: #240046;
+}
+
+.introText {
+    color: #5b268d;
+}
+
+.imgs {
+    width: 30vw;
+}
+
+.img1 {
+    width: 500px;
+}
+
+.img2 {
+    width: 30vw;
+    height: 400px;
+    margin-top: 150px;
+}
+
+.img3 {
+    width: 500px;
+}
+
+.button1 {
+    width: 150px;
+    height: 30px;
+    background-color: #9FA0FF;
+    border: 0px;
+    margin: 10px;
+    color: #240046;
+    font-weight: bold;
+    cursor: pointer;
+    filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.16));
+}
+
+.button1:hover {
+    background-color: #7d7fea;
+}
+
+
+.button2 {
+    width: 150px;
+    height: 30px;
+    background-color: #C77DFF;
+    border: 0px;
+    margin: 10px;
+    color: #7B2CBF;
+    font-weight: bold;
+    cursor: pointer;
+    filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.16));
+}
+
+.button2:hover {
+    background-color: #b35ef4;
+
+}
+
+.logos {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+}
+
+.flag {
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+}
