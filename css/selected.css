@@ -1,0 +1,45 @@
+body {
+    background-color: #BBADFF;
+    margin: 0px;
+}
+
+.navList {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #7B2CBF;
+}
+
+.navItems {
+    margin: 20px;
+    list-style-type: none;
+
+}
+
+.item {
+    text-decoration: none;
+    color: #BBADFF;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.item:hover {
+    color: #240046;
+
+}
+
+.navTitle {
+    color: #240046;
+    margin: 16px;
+    margin-right: 50px;
+    list-style-type: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+
+.titleItem {
+    text-decoration: none;
+    cursor: pointer;
+    color: #240046;
+}

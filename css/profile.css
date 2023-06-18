@@ -1,0 +1,234 @@
+body {
+    background-color: #BBADFF;
+    margin: 0px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.navProfile {
+    background-color: #2F2E41;
+    width: 30vw;
+    height: 100vh;
+    flex-direction: column;
+    display: flex;
+
+}
+
+.head {
+    background-color: #7B2CBF;
+    height: 100px;
+    text-align: center;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.userSec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.user {
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.title {
+    color: #F3E4FF;
+    margin: 10px;
+    font-size: 1.5rem;
+}
+
+.proList {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.item {
+    list-style-type: none;
+    font-size: 1.3rem;
+    color: #F3E4FF;
+    background-color: #34334C;
+    width: 30vw;
+    text-align: right;
+    height: 60px;
+    filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.421));
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.text {
+    margin: 20px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.text:hover {
+    color: #000;
+}
+
+.mainPage {
+    width: 70vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* edite */
+
+
+.form {
+    background-color: #F3E4FF;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    filter: drop-shadow(5px 5px 8px rgba(0, 0, 0, 0.5));
+}
+
+.formTitle {
+    color: #240046;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    text-align: right;
+}
+
+.input1 {
+    width: 350px;
+    height: 35px;
+    text-align: right;
+    margin: 30px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    border: solid 1px;
+    border-color: #af96c7;
+    background-color: #F7EDFF;
+}
+
+.input2 {
+    width: 200px;
+    height: 35px;
+    text-align: right;
+    margin: 30px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    font-size: 1rem;
+    border: solid 1px;
+    border-color: #af96c7;
+    background-color: #F7EDFF;
+}
+
+.input3 {
+    width: 620px;
+    height: 35px;
+    text-align: right;
+    margin: 30px;
+    font-size: 1rem;
+    border: solid 1px;
+    border-color: #af96c7;
+    background-color: #F7EDFF;
+}
+
+.submit {
+    width: 200px;
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: -50px;
+    background-color: #7B2CBF;
+    border: 0px;
+    color: #F7EDFF;
+    font-weight: bold;
+    cursor: pointer;
+    filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.5));
+}
+
+.submit:hover {
+    background-color: #651fa3;
+}
+
+
+/* info */
+
+.userInfo {
+    margin-right: -240px;
+}
+
+.itemInfo {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: right;
+}
+
+.titleInfo {
+    width: 200px;
+    margin: 30px;
+    color: #240046b1;
+    font-size: 1.2rem;
+
+}
+
+.textInfo {
+    width: 200px;
+    margin: 30px;
+    font-size: 1.5rem;
+    color: #240046;
+}
+
+.editeButton {
+    width: 200px;
+    height: 30px;
+    margin-top: 80px;
+    margin-bottom: -50px;
+    margin-left: 250px;
+    background-color: #7B2CBF;
+    border: 0px;
+    color: #F7EDFF;
+    font-weight: bold;
+    cursor: pointer;
+    filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.178));
+}
+
+.editeButton:hover {
+    background-color: #651fa3;
+}
+
+.passForm {
+    margin-top: 150px;
+    background-color: #F3E4FF;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    filter: drop-shadow(5px 5px 8px rgba(0, 0, 0, 0.5));
+}
+
+.label {
+    margin-top: 20px;
+    margin-bottom: -20px;
+    margin-left: 565px;
+    color: #240046;
+}
+
+
+.hide {
+    display: none;
+}
+
+
+.clicked {
+    background-color: #474562;
+    filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.421));
+}

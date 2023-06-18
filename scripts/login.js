@@ -10,7 +10,15 @@ loginForm.addEventListener("submit", (e) => {
     if (email.value == "" || password.value == "") {
         alert("Ensure you input a value in both fields!");
     } else {
-        // perform operation with form input
+
+        // changed
+
+        const user = getUser();
+        const firstName = user.firstname;
+        const lastName = user.lastname;
+
+        let items = [firstName, lastName, email.value]
+        localStorage.setItem('data', JSON.stringify(items))
 
         window.location.href = "mainPage.html";
     }
@@ -23,3 +31,9 @@ function goBack() {
     window.location.href = "index.html"
 }
 
+
+async function getUser() {
+    const response = await fetch("apiUrl");
+    const user = await response.json();
+    return user;
+}

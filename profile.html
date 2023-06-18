@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/profile.css">
+</head>
+
+<body>
+    <div class="profile">
+        <div class="navProfile">
+            <div class="head">
+                <div>پروفایل</div>
+            </div>
+            <div class="userSec">
+                <img class="user" src="./images/user.png" />
+                <div class="title" id="fullName"></div>
+                <div class="title" id="username"></div>
+            </div>
+
+            <ul class="proList">
+                <li class="item" id="info" onclick="handleClick1(id)">
+                    <div class="text">مشخصات زبان آموز</div>
+                </li>
+                <li class="item" id="safety" onclick="handleClick1(id)">
+                    <div class="text">امنیت</div>
+                </li>
+
+                <li class="item" id="logout" onclick="handleClick1(id)">
+                    <div class="text">خروج از حساب</div>
+                </li>
+            </ul>
+
+        </div>
+        <div class="mainPage">
+
+            <div class="userInfo hide" id="userInfo">
+                <h1 class="formTitle">مشخصات زبان آموز</h1>
+                <ul class="infoList">
+                    <li class="itemInfo">
+                        <div class="titleInfo">نام و نام خانوادگی</div>
+                        <div class="textInfo" id="fullName1"></div>
+                    </li>
+                    <li class="itemInfo">
+                        <div class="titleInfo">نام کاربری</div>
+                        <div class="textInfo" id="username1"></div>
+                    </li>
+                    <li class="itemInfo">
+                        <div class="titleInfo">ایمیل</div>
+                        <div class="textInfo" id="email1"></div>
+                    </li>
+                    <li class="itemInfo">
+                        <div class="titleInfo">تلفن</div>
+                        <div class="textInfo">...</div>
+                    </li>
+
+                </ul>
+                <button class="editeButton" onclick="handleClick2()">ویرایش مشخصات</button>
+
+            </div>
+
+
+            <div class="edite hide" id="edite">
+                <h1 class="formTitle">تکمیل یا ویرایش مشخصات</h1>
+                <form class="form" id="Form">
+                    <div>
+                        <input class="input1" type="text" id="lastName" placeholder="نام خانوادگی " />
+                        <input class="input2" type="text" id="firstName" placeholder="نام " />
+                    </div>
+
+                    <input class="input3" type="text" id="email" placeholder="ایمیل " />
+                    <input class="input3" type="text" id="phone" placeholder="تلفن " />
+
+                    <button class="submit" type="submit">ثبت تغییرات</button>
+                </form>
+            </div>
+
+            <div class="security hide" id="security">
+
+                <form class="passForm" id="passForm">
+
+                    <label class="label" for="oldPass">رمز قبلی</label>
+                    <input class="input3" type="password" id="oldPass" />
+
+                    <label class="label" for="newPass">رمز جدید</label>
+                    <input class="input3" type="password" id="newPass" />
+
+                    <label class="label" for="repeat">تکرار رمز</label>
+                    <input class="input3" type="password" id="repeat" />
+
+                    <button class="submit" type="submit">تغییر رمز</button>
+                </form>
+            </div>
+
+
+
+
+        </div>
+    </div>
+    <script src="./scripts/profile.js"></script>
+
+</body>
+
+</html>

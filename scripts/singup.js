@@ -13,13 +13,12 @@ singupForm.addEventListener("submit", (e) => {
         alert("Ensure you input a value in all fields!");
     } else {
 
-        // perform operation with form input
 
         fetch("apiUrl", {
             method: "POST",
             body: JSON.stringify({
                 firstname: firstName.value,
-                lastname: lastName,
+                lastname: lastName.value,
                 email: email.value,
                 password: password.value
             }),
@@ -29,6 +28,10 @@ singupForm.addEventListener("submit", (e) => {
         })
             .then((response) => response.json())
             .then((json) => console.log(json));
+
+        // changed
+        let items = [firstName.value, lastName.value, email.value]
+        localStorage.setItem('data', JSON.stringify(items))
 
 
         window.location.href = "mainPage.html";
