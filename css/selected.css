@@ -43,3 +43,90 @@ body {
     cursor: pointer;
     color: #240046;
 }
+
+.head {
+    margin: 50px;
+    margin-right: 125px;
+    text-align: right;
+    color: #240046;
+}
+
+.courses {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoList {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+}
+
+.itemInfo {
+    margin: 20px;
+    margin-top: 0;
+    list-style-type: none;
+    text-align: center;
+    width: 200px;
+}
+
+.titleInfo {
+    margin: 40px;
+    padding: 5px;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+
+.textInfo {
+    margin: 40px;
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+.title {
+    font-size: 1.9rem;
+    font-weight: bold;
+}
+
+.itlyList {
+    background-color: #DDE5B6;
+    filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.5));
+}
+
+.itly {
+    color: #6A994E;
+}
+
+.itlyBorder {
+    border-right: #6A994E solid;
+}
+
+
+.engList {
+    background-color: #BBDEFB;
+    filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.5));
+}
+
+.eng {
+    color: #2196F3;
+}
+
+.engBorder {
+    border-right: #2196F3 solid;
+}
+
+.grmList {
+    background-color: #FFBE9D;
+    filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.5));
+}
+
+.grm {
+    color: #E01E37;
+}
+
+.grmBorder {
+    border-right: #E01E37 solid;
+}
